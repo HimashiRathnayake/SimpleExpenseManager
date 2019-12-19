@@ -51,4 +51,7 @@ public interface TransactionDAO {
      * @return - a list of requested number of transactions
      */
     public List<Transaction> getPaginatedTransactionLogs(int limit);
+
+    class database {
+    }
 }
